@@ -115,26 +115,88 @@ body {
   }
 }
 /* my-inspiration-section */
-.my-inspiration-section{
-
+.my-inspiration-section {
+  text-align: center;
+  & h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 24px;
+    padding: 5px;
+  }
+  & p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 40px;
+    padding: 5px;
+  }
+  & .inspiration-video {
+    margin-bottom: 200px;
+  }
+}
+/* my-current-target-section */
+.my-current-target-section {
+  & .target-content {
     text-align: center;
-    & h3{
-        font-size: 32px;
-        font-weight: 800;
-        line-height: 37px;
-        margin: 24px;
-        padding: 5px;
+    & h3 {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 37px;
+      margin: 24px;
+      padding: 5px;
     }
-    & p{
-        font-size:16px ;
+    & p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: rgba(13, 19, 33, 0.7);
+      margin-bottom: 40px;
+      padding: 5px;
+      width: 700px;
+      margin: auto;
+      margin-bottom: 90px;
+    }
+  }
+  & .next-part{
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  & .contents {
+    width: 360px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-bottom: 140px;
+    margin-bottom: 50px;
+    padding: 50px;
+
+    & img {
+    }
+  &  h3 {
+      font-size: 24px;
+      font-weight: 800;
+      padding: 5px;
+      margin-top: 20px;
+      color: #0d1321;
+      margin-bottom: 20px;
+    }
+    & .des{
+        font-size: 16px;
         font-weight: 400;
         line-height: 26px;
-        color: rgba(13, 19, 33,0.7);
-        margin-bottom: 40px;
-        padding: 5px;
+        text-align: left;
+        color: rgba(13, 19, 33, 0.7);
+        margin-bottom: 20px;
     }
-    & .inspiration-video{
-
-
+    .btn{
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px;
     }
+  }
 }
