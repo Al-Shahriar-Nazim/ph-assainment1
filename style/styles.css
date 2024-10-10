@@ -199,7 +199,7 @@ body {
     }
   }
 }
-
+/* contact-section */
 .contact-section {
   & .content-img {
     position: absolute;
@@ -259,13 +259,34 @@ body {
       cursor: pointer;
       font-weight: 600;
       border-radius: 10px;
+      margin-bottom: 100px;
     }
-    & .button:hover{
-        background-color: #aeaeae;
+    & .button:hover {
+      background-color: #aeaeae;
     }
-    & .button1{
+    & .button1 {
       background-color: #e7e7e7;
       color: black;
+    }
+  }
+}
+/* footer section */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 630px;
+  background-color: #ddd;
+  padding: 10px;
+  & .footer-head {
+    font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
+  & .contact-icon-footer {
+    & .fb img {
+      margin-left: 5px;
+      text-decoration: underline;
     }
   }
 }
