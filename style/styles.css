@@ -114,3 +114,27 @@ body {
     }
   }
 }
+/* my-inspiration-section */
+.my-inspiration-section{
+
+    text-align: center;
+    & h3{
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        margin: 24px;
+        padding: 5px;
+    }
+    & p{
+        font-size:16px ;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgba(13, 19, 33,0.7);
+        margin-bottom: 40px;
+        padding: 5px;
+    }
+    & .inspiration-video{
+
+
+    }
+}
